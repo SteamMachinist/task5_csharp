@@ -19,7 +19,8 @@
 
         public override void Examine(string patientName)
         {
-            Console.WriteLine("Neurosurgeon " + Name +  " examined patient " + patientName + " using " + diagnosisMethod.ToString() + "\n");
+            Console.WriteLine("Neurosurgeon " + Name +  " examined patient " + patientName 
+                + " using " + diagnosisMethod.ToString() + "\n");
         }
 
         public override void Operate(string patientName)

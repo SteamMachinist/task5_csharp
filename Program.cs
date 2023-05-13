@@ -11,9 +11,9 @@ namespace task5_csharp
             List<IDoctor> doctors = new List<IDoctor> { doctor1, doctor2 };
             doctors.ForEach(Console.WriteLine);
 
+            string patient = "Random Patient";
             foreach (var doctor in doctors)
             {
-                string patient = "Random Patient";
                 doctor.Examine(patient);
                 doctor.Treat(patient);
             }
